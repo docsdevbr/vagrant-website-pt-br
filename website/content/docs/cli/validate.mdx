@@ -1,0 +1,39 @@
+---
+# Copyright (c) 2024 HashiCorp, Inc.
+# Vagrant and the Vagrant logo are trademarks of HashiCorp.
+
+# Licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/hashicorp/vagrant/blob/main/LICENSE
+
+layout: docs
+page_title: vagrant validate - Command-Line Interface
+description: The "vagrant validate" command is used to validate your Vagrantfile.
+---
+
+# Validate
+
+**Command: `vagrant validate`**
+
+This command validates your [Vagrantfile](/vagrant/docs/vagrantfile/).
+
+## Options
+
+- `--ignore-provider` - Ignores provider config options.
+
+## Examples
+
+Validate the syntax of the Vagrantfile to ensure it is correctly structured and free of errors
+
+```shell-session
+$ vagrant validate
+Vagrantfile validated successfully.
+```
+
+Ensure that the Vagrantfile is correctly structured while ignoring provider-specific configuration options:
+
+```shell-session
+$ vagrant validate --ignore-provider virtualbox
+==> default: Ignoring provider config for validation...
+Vagrantfile validated successfully.
+```
