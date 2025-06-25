@@ -30,7 +30,8 @@ Você pode apoiar o projeto através do [GitHub Sponsors][github-sponsors] ou
 Copyright (c) 2024 HashiCorp, Inc.<br>
 Vagrant e o logotipo do Vagrant são marcas registradas da HashiCorp.
 
-Licenciado sob a [Business Source License, Versão 1.1][license].<br>
+Documentação licenciada sob a
+[Business Source License, Versão 1.1][license].<br>
 A obra original foi traduzida do inglês para o português brasileiro.
 
 [badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/vagrant-doc-pt-br
